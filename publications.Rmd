@@ -1,0 +1,20 @@
+---
+title: "Publications"
+output: 
+  distill::distill_article:
+    theme: theme.css
+---
+
+# 2021
+
+Prejudice towards sex workers depends on the sexual activity and autonomy of their work, hobbies and daily activities <br>
+
+Behind the makeup: The effects of cosmetics on women’s self-objectification, and their objectification by others <br>
+
+# 2020
+
+Papa Don’t Preach? Using Lies to Expose the Truth about Who Suppresses Female Sexuality <br>
+
+# 2019
+
+What drives female objectification? An investigation of appearance-based interpersonal perceptions and the objectification of women

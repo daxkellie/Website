@@ -11,7 +11,7 @@
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 
 html {
@@ -28,10 +28,10 @@ html {
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    'Zen Tokyo Zoo', cursive;
+  --heading-font:    'Oxygen', sans-serif;
   --mono-font:       'Montserrat', sans-serif;
   --body-font:       'Montserrat', sans-serif;
-  --navbar-font:     'Noto Sans JP', sans-serif; /* websites + blogs only */
+  --navbar-font:     'Oxygen', sans-serif; /* websites + blogs only */
 }
 
 /*-- ARTICLE METADATA --*/
@@ -113,9 +113,13 @@ d-appendix {
   margin-top: 62%;
   letter-spacing: 0.065em;
   line-height: 1em;
-  font-size: 68px;
+  font-size: 90px;
   text-align: center;
   display: block; /* Change to `display: none` for no bottom text */
   color: white;
   margin-bottom: 0.5rem;
+}
+
+.bottom-text, h1{
+  font-family: 'Zen Tokyo Zoo', cursive;
 }

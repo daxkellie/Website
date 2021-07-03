@@ -1,10 +1,43 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "Dax Kellie"
+image: "images/dax.jpg"
+links:
+  - label: Email
+    url: "mailto:daxkellie@csiro.au"
+  - label: Twitter
+    url: "https://twitter.com/daxkellie?lang=en"
+  - label: GitHub
+    url: "https://github.com/daxkellie"
+  - label: LinkedIn
+    url: "https://au.linkedin.com/in/dax-kellie-356473b2"
+  - label: Google Scholar
+    url: "https://scholar.google.com/citations?user=XcGVg2kAAAAJ&hl=en"
+  - label: OSF
+    url: "https://osf.io/fxwjr/"
+output:
+  postcards::trestles
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{css, include = FALSE}
+.img {
+  clip-path: circle();
+}
 ```
+
+
+## Education
+
+### Ph. D
+University of New South Wales, Sydney
+
+-----------------------------------------------------------------------------
+
+## Experience
+
+### Something
+
+* Did something
+* Did that other thing
+
+-----------------------------------------------------------------------------
 

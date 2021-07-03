@@ -1,9 +1,13 @@
 ---
 title: "About me:"
 description: |
-  I am an Evolutionary Biologist and Social Psychologist (PhD from University of New South Wales, Sydney Australia). Currently a Data Analyst for the [Atlas of Living Australia](ala.org.au). <br><br>
-  I am interested in understanding evolutionary and cultural underpinnings of human behaviour, in particular, sexist attitudes and behaviours. <br><br>
-  Passionate about music. Love all genres, so love a good recommendation. I play piano sometimes.
+  I am an evolutionary biologist and social psychologist (Ph. D. from University of New South Wales, Sydney Australia). Currently a Data Analyst for the [Atlas of Living Australia](ala.org.au). <br><br>
+
+  I am interested in understanding evolutionary and cultural underpinnings of human behaviour, in particular, sexist attitudes and behaviours. I published a few papers on this at one point. <br><br>
+  
+  I value scientific transparency and reproducibility. I try to practice this as much as I can. <br><br>
+  
+  Passionate about music. Love all genres. I play piano sometimes.
 output:
   distill::distill_article:
     css: theme.css
