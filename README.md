@@ -1,2 +1,2 @@
-# Website
-Dax's personal website repo
+# daxkellie.com
+Repository for personal website
