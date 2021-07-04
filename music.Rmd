@@ -1,9 +1,77 @@
 ---
 title: "Music"
+description: |
 output: 
   distill::distill_article:
     theme: theme.css
-    toc: true
 ---
 
-Coming soon :)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, include=FALSE}
+library(htmltools)
+source("R/functions.R")
+```
+
+
+## Playlists
+
+```{r}
+create_proj_card(
+  img_src = "images/sixtape.png",
+  url = "https://open.spotify.com/playlist/2lu6BzKSxy9UJU6l59tD3a?si=8c2875f5ac4a4b76",
+  title = "Sixtape",
+  text = "A 6-song mixtape Spotify playlist updated weekly. A new genre or theme every week",
+  text2 = NULL
+)
+create_proj_card(
+  img_src = "images/completecollection.png",
+  url = "https://open.spotify.com/playlist/4kygq8zI5lP9ErsYOwECCh?si=6759bc73d34e4416",
+  title = "The Complete Collection \nof Sixtapes",
+  text = "All previous Sixtape playlists in one place and in order",
+  text2 = NULL
+)
+```
+
+## What I've been listening to
+
+```{r, echo = FALSE}
+library(spotifyr)
+Sys.setenv(SPOTIFY_CLIENT_ID = '0d2a2d2d09a5443687d1a4985b8335fe')
+Sys.setenv(SPOTIFY_CLIENT_SECRET = '113f6b70f76c4d809f45cc400023d1f5')
+
+access_token <- get_spotify_access_token()
+```
+
+### My Top 10 Artists
+```{r}
+library(tidyverse)
+library(lubridate)
+library(kableExtra)
+
+get_my_top_artists_or_tracks(type = 'artists', 
+                             time_range = 'long_term', 
+                             limit = 10) %>% 
+    select(.data$name, .data$genres) %>% 
+    rowwise %>% 
+    mutate(genres = paste(.data$genres, collapse = ', ')) %>% 
+    ungroup %>% 
+    kbl() %>% kable_styling()
+```
+
+
+
+```{r, eval = FALSE}
+library(spotifyr)
+library(ggbump)
+library(pacman)
+
+pacman::p_load(padr, hablar, jsonlite, ggbump, 
+               httr, xml2, lubridate, tidyverse)
+
+
+```
+

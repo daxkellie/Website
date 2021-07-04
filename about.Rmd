@@ -18,6 +18,12 @@ output:
   postcards::trestles
 ---
 
+<style>
+img {
+  clip-path: circle();
+}
+</style>
+
 ```{css, include = FALSE}
 img {
   clip-path: circle();
