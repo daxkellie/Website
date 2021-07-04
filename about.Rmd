@@ -19,25 +19,41 @@ output:
 ---
 
 ```{css, include = FALSE}
-.img {
+img {
   clip-path: circle();
 }
 ```
 
-
 ## Education
 
-### Ph. D
-University of New South Wales, Sydney
+**Ph. D.** | Jul 2015 – Apr 2020  
+School of Biological Sciences, University of New South Wales  
+    •	Evolutionary Biology thesis: “Evolutionary and psychological insights into the suppression of female sexuality”
+
+**Bachelor of Science (Honours)** | Feb 2011 - Dec 2014  
+School of Biological Sciences, University of New South Wales
 
 -----------------------------------------------------------------------------
 
 ## Experience
 
-### Something
+**Data Analyst** | Apr 2021 - Present  
+Atlas of Living Australia / CSIRO
 
-* Did something
-* Did that other thing
+**Data Analyst** | Jul 2020 - Apr 2021  
+Indigenous Mental Health & Suicide Prevention, Australian Institute of Health & Welfare
+
+**Project Lead Researcher** | Feb 2020 - Jul 2020  
+School of Biological Sciences, UNSW 
+
+**Postgraduate Research** | Jul 2015 - Apr 2020  
+School of Biological Sciences, UNSW
+
+**Tutor & Lab Demonstrator** | Mar 2016 - Apr 2020  
+School of Biological Sciences, UNSW
+
+**Research Assistant** | Sep 2019 - Nov 2019  
+School of Psychological Sciences, University of Melbourne
 
 -----------------------------------------------------------------------------
 

@@ -124,6 +124,21 @@ d-appendix {
   font-family: 'Zen Tokyo Zoo', cursive;
 }
 
-.img {
+img {
   clip-path: circle();
+}
+
+.btn {
+    color: #343a40;
+    border-color: #26532B;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #26532B;
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+    color: white;
+    background-color: #26532B;
 }
