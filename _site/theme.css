@@ -78,6 +78,7 @@ d-appendix {
 /* Add any additional CSS rules below                      */
 
 
+
 /* -----------HERO IMAGE AT TOP OF PAGE -----------*/
 
 /*-- Index page  */
@@ -86,7 +87,7 @@ d-appendix {
     margin-bottom: 2em;
     /* liner gradient tints the image darker for readability*/
     background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(images/dax_talk.jpg); 
-    height: 300px;
+    height: 268px;
     background-color: #141c25f2;
     display: flex; /* Change to `display: none` for no hero image */
     justify-content: center;

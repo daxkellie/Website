@@ -2,21 +2,23 @@
 title: "Dax Kellie"
 image: "images/dax.jpg"
 links:
-  - label: Email
+  - label: <i class = "fas fa-envelope"></i>
     url: "mailto:daxkellie@csiro.au"
-  - label: Twitter
+  - label: <i class = "fab fa-twitter"></i>
     url: "https://twitter.com/daxkellie?lang=en"
-  - label: GitHub
+  - label: <i class = "fab fa-github"></i>
     url: "https://github.com/daxkellie"
-  - label: LinkedIn
+  - label: <i class = "fab fa-linkedin"></i>
     url: "https://au.linkedin.com/in/dax-kellie-356473b2"
-  - label: Google Scholar
+  - label: <i class = "ai ai-google-scholar ai-lg"></i>
     url: "https://scholar.google.com/citations?user=XcGVg2kAAAAJ&hl=en"
-  - label: OSF
+  - label: <i class = "ai ai-osf ai-lg"></i>
     url: "https://osf.io/fxwjr/"
 output:
   postcards::trestles
 ---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
 <style>
 img {
@@ -24,17 +26,12 @@ img {
 }
 </style>
 
-```{css, include = FALSE}
-img {
-  clip-path: circle();
-}
-```
 
 ## Education
 
 **Ph. D.** | Jul 2015 – Apr 2020  
 School of Biological Sciences, University of New South Wales  
-    •	Evolutionary Biology thesis: “Evolutionary and psychological insights into the suppression of female sexuality”
+    *   Thesis: *Evolutionary and psychological insights into the suppression of female sexuality*
 
 **Bachelor of Science (Honours)** | Feb 2011 - Dec 2014  
 School of Biological Sciences, University of New South Wales

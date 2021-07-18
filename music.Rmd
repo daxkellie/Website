@@ -19,6 +19,8 @@ source("R/functions.R")
 
 ## Playlists
 
+I make several playlists you might like to listen to:
+
 ```{r}
 create_proj_card(
   img_src = "images/sixtape.png",
@@ -46,7 +48,8 @@ Sys.setenv(SPOTIFY_CLIENT_SECRET = '113f6b70f76c4d809f45cc400023d1f5')
 access_token <- get_spotify_access_token()
 ```
 
-### My Top 10 Artists
+### My Top 10 Artists of All Time
+
 ```{r}
 library(tidyverse)
 library(lubridate)
