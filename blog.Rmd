@@ -1,0 +1,13 @@
+---
+title: "Blog"
+listing:
+  posts:
+    - transition-from-academia
+---
+
+
+
+
+
+
+

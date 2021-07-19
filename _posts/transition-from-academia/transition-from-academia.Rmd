@@ -1,0 +1,24 @@
+---
+title: "title"
+description: |
+  Transitioning from academia isn't easy, but it's not so bad after all
+author:
+  - name: Dax Kellie 
+    url: https://twitter.com/daxkellie?lang=en
+date: "`r Sys.Date()`"
+categories: 
+  - academia
+output: 
+  distill::distill_article:
+    highlight: pygments
+    toc: true
+    toc_float: true
+    toc_depth: 3
+---
+
+
+
+
+
+
+

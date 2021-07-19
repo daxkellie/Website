@@ -4,6 +4,13 @@ description: |
   daxkellie.com
 output_dir: "_site"
 theme: theme.css
+collections:
+  posts:
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
+   # disqus: Website
+   # share: [twitter]
 navbar:
   right:
     - text: "Home"
