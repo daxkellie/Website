@@ -3,6 +3,7 @@ title: "Blog"
 listing:
   posts:
     - transition-from-academia
+    - 2021-07-10_spotify_analysis
 ---
 
 

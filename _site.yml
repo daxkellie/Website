@@ -12,6 +12,7 @@ collections:
    # disqus: Website
    # share: [twitter]
 navbar:
+  search: true
   right:
     - text: "Home"
       href: index.html
@@ -22,11 +23,7 @@ navbar:
     - text: "Blog"
       href: blog.html
     - text: "Music"
-      menu: 
-      - text: "Playlists"
-        href: music.html
-      - text: "My Listening"
-        href: 2021-07-10_spotify_analysis.html
+      href: music.html
     - icon: fab fa-twitter
       href: https://twitter.com/daxkellie?lang=en
     - icon: fab fa-github
