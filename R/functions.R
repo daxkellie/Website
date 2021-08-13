@@ -7,7 +7,7 @@ create_proj_card = function(img_src, url, title, text, text2){
              style="width:200px;height:100%"),
     tags$div(
       class = "card-body",
-      h4(
+      h3(
         a(href = url,  
           title)),
       p(class = "card-text", 
