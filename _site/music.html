@@ -2122,12 +2122,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,700;1,400&display=swap');
 
   html {
     /*-- Main font sizes --*/
     --title-size:      48px;
-    --body-size:       1.00rem;
-    --code-size:       13px;
+    --body-size:       1.05rem;
+    --code-size:       0.95rem;
     --aside-size:      11px;
     --fig-cap-size:    12px;
     /*-- Main font colors --*/
@@ -2138,7 +2139,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    'Oxygen', sans-serif;
-    --mono-font:       'Montserrat', sans-serif;
+    --mono-font:       'Source Code Pro', monospace;
     --body-font:       'Montserrat', sans-serif;
     --navbar-font:     'Oxygen', sans-serif; /* websites + blogs only */
   }
@@ -2172,15 +2173,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --title-size:       19px;
     --text-color:       white;
     --text-size:        16px;
-    --hover-color:      #5ABCB9;
-    --bkgd-color:       #26532B;
+    --hover-color:      #e4b48c;
+    --bkgd-color:       #71987d;
   }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
+    --bkgd-color:       #e4b48c;
   }
 
   /*-- Additional custom styles --*/
@@ -2196,7 +2197,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       margin-bottom: 2em;
       /* liner gradient tints the image darker for readability*/
       background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(images/dax_talk.jpg); 
-      height: 280px;
+      height: 310px;
       background-color: #141c25f2;
       display: flex; /* Change to `display: none` for no hero image */
       justify-content: center;
@@ -2221,7 +2222,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .bottom-text {
     position: relative;
-    margin-top: 62%;
+    margin-top: 78%;
     letter-spacing: 0.065em;
     line-height: 1em;
     font-size: 90px;
@@ -2236,17 +2237,62 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
 
+  /*-- Index page arrow scroll  */
+
+  html:focus-within {
+    scroll-behavior: smooth;
+    will-change: scroll-position;
+   }
+   
+   #about-me {
+    height: 1px;
+   }
+
+  .arrow {
+    text-align: center;
+    margin: 8% 0;
+  }
+
+  .arrow-link {
+    color: white; 
+    text-decoration: none;
+  }
+
+  .arrow-link:hover {
+    color: #e4b48c;
+  }
+
+  .bounce {
+    -o-transform: bounce 2s infinite;
+    -ms-transform: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
 
   /*-- About page  */
 
   .btn {
-      color: #343a40;
-      border-color: #26532B;
+      color: #4698c5;
+      border-color: #4698c5;
   }
 
   .btn:hover {
-    color: white;
-    background-color: #26532B;
+    color: #e4b48c;
+    background-color: #4698c5;
+    border-color: #71987d;
   }
 
   .list-group-item-action:focus, .list-group-item-action:hover {
@@ -2486,17 +2532,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="about.html">About</a>
 <a href="publications.html">Publications</a>
 <a href="blog.html">Blog</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Music
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="music.html">Playlists</a>
-<a href="2021-07-10_spotify_analysis.html">My Listening</a>
-</div>
-</div>
+<a href="music.html">Music</a>
 <a href="https://twitter.com/daxkellie?lang=en">
 <i class="fab fa-twitter" aria-hidden="true"></i>
 </a>
@@ -2521,16 +2557,16 @@ Music
 
 <div class="d-article">
 <h2 id="playlists">Playlists</h2>
-<p>I make several playlists you might like to listen to:</p>
+<p>I make several Spotify playlists. You might like to listen to them sometime:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="card">
 <img class="card-img-top" src="images/sixtape.PNG" style="width:200px;height:100%"/>
 <div class="card-body">
-<h4>
+<h3>
 <a href="https://open.spotify.com/playlist/2lu6BzKSxy9UJU6l59tD3a?si=8c2875f5ac4a4b76">Sixtape</a>
-</h4>
+</h3>
 <p class="card-text">
-A 6-song mixtape Spotify playlist updated weekly. A new genre or theme every week
+A 6-song mixtape, updated weekly. Every week each mixtape has a new genre or theme
 <br/>
 </p>
 </div>
@@ -2538,12 +2574,12 @@ A 6-song mixtape Spotify playlist updated weekly. A new genre or theme every wee
 <div class="card">
 <img class="card-img-top" src="images/completecollection.PNG" style="width:200px;height:100%"/>
 <div class="card-body">
-<h4>
+<h3>
 <a href="https://open.spotify.com/playlist/4kygq8zI5lP9ErsYOwECCh?si=6759bc73d34e4416">The Complete Collection 
 of Sixtapes</a>
-</h4>
+</h3>
 <p class="card-text">
-All previous Sixtape playlists in one place and in order
+All previous Sixtape playlists in one convenient place (and in order). For those who want to find an old song or love a long playlist to put on shuffle
 <br/>
 </p>
 </div>
