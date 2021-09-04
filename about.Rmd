@@ -1,6 +1,7 @@
 ---
 title: "Dax Kellie"
 image: "images/dax.jpg"
+favicon: images/favicon.ico
 links:
   - label: <i class = "fas fa-envelope"></i>
     url: "mailto:daxkellie@csiro.au"

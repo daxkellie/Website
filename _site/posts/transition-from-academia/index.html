@@ -90,6 +90,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <meta property="description" itemprop="description" content="Transitioning from academia isn&#39;t easy, but it&#39;s not so bad after all"/>
 
+<link rel="icon" type="image/vnd.microsoft.icon" href="../../images/favicon.ico"/>
 
 <!--  https://schema.org/Article -->
 <meta property="article:published" itemprop="datePublished" content="2021-07-19"/>
@@ -2208,7 +2209,7 @@ d-appendix {
     margin-bottom: 2em;
     /* liner gradient tints the image darker for readability*/
     background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(images/dax_talk.jpg); 
-    height: 310px;
+    height: 350px;
     background-color: #141c25f2;
     display: flex; /* Change to `display: none` for no hero image */
     justify-content: center;
@@ -2233,7 +2234,7 @@ d-appendix {
 
 .bottom-text {
   position: relative;
-  margin-top: 78%;
+  margin-top: 85%;
   letter-spacing: 0.065em;
   line-height: 1em;
   font-size: 90px;
@@ -2245,6 +2246,18 @@ d-appendix {
 
 .bottom-text, h1{
   font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+@media (max-width: 992px){
+  .top-text {
+    font-size: 1.5vw;
+  font-size: 18px;
+  }
+  
+  .bottom-text {
+    font-size: 3.5vw;
+  font-size: 75px;
+}
 }
 
 
@@ -2261,7 +2274,7 @@ html:focus-within {
 
 .arrow {
   text-align: center;
-  margin: 8% 0;
+  margin: 6% 0;
 }
 
 .arrow-link {

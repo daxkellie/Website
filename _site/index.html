@@ -90,6 +90,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   <meta property="description" itemprop="description" content="I am an evolutionary biologist and social psychologist&#10;(Ph. D. from University of New South Wales, Sydney Australia). &lt;br&gt;&lt;br&gt;&#10;&#10;Currently I work as a data analyst for the [Atlas of Living Australia](https://www.ala.org.au/). &lt;br&gt;&lt;br&gt;&#10;&#10;I am interested in understanding evolutionary and cultural underpinnings of human behaviour; in particular, sexist attitudes and behaviours. I published a few papers on this at one point. &lt;br&gt;&lt;br&gt;&#10;&#10;I value scientific transparency and reproducibility. I try to implement these practices as much as I can. &lt;br&gt;&lt;br&gt;&#10;&#10;Passionate about music. Love all genres. I play piano sometimes."/>
 
+  <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -2200,7 +2201,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       margin-bottom: 2em;
       /* liner gradient tints the image darker for readability*/
       background-image: linear-gradient( rgba(0,0,0,.2), rgba(0,0,0,.2) ), url(images/dax_talk.jpg); 
-      height: 310px;
+      height: 350px;
       background-color: #141c25f2;
       display: flex; /* Change to `display: none` for no hero image */
       justify-content: center;
@@ -2225,7 +2226,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .bottom-text {
     position: relative;
-    margin-top: 78%;
+    margin-top: 85%;
     letter-spacing: 0.065em;
     line-height: 1em;
     font-size: 90px;
@@ -2237,6 +2238,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .bottom-text, h1{
     font-family: 'Zen Tokyo Zoo', cursive;
+  }
+
+  @media (max-width: 992px){
+    .top-text {
+      font-size: 1.5vw;
+    font-size: 18px;
+    }
+    
+    .bottom-text {
+      font-size: 3.5vw;
+    font-size: 75px;
+  }
   }
 
 
@@ -2253,7 +2266,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .arrow {
     text-align: center;
-    margin: 8% 0;
+    margin: 6% 0;
   }
 
   .arrow-link {
