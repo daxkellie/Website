@@ -11,6 +11,7 @@ output:
     toc: true
     toc_float: true
     toc_depth: 3
+    self_contained: false
 ---
 
 “I’m out of academia.” That’s how lots of these articles start (and now mine does too!). 
@@ -37,7 +38,7 @@ Unintentionally, my “leaving academia” article is different. It has been nea
 
 What I am here to report after a change in career paths: everything is fine.
 
-```{r, echo = FALSE, out.width = "250px", warning = FALSE, message = FALSE, fig.align = "center"}
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.align = "center"}
 library(knitr)
 knitr::include_graphics("gif1.gif")
 ```
@@ -58,7 +59,7 @@ These thoughts aren’t cool for my brain to make me think, but it couldn’t he
 knitr::include_graphics("gif2.gif")
 ```
 
-<!-- ![My brain doesn't even listen when I'm doing my best Arnie impersonation](gif2.gif) -->
+![My brain doesn't even listen when I'm doing my best Arnie impersonation](gif2.gif)
 
 It also became clear how much my social media reflected my academic career interests and little else. Twitter became incredibly draining as I simultaneously identified with and felt distant from the people I had once followed so closely. I expected something like this, but not to this extent. But why was I surprised? The last few years of my life were completely wrapped up in my research topic, yet when I finally started to feel minor confidence in my research ability, I had to move on to completely unknown territory.
 
