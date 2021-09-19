@@ -28,7 +28,6 @@ tweet_screenshot(tweet_url("AMLuger", "1369348381630472194?s=20"))
 
 ```{r, echo = FALSE, fig.cap = "A few tweets I liked. The Michele Meyer thread is worth reading. Also note that Jessie Sun stayed in academia and just got a killer Assistant Prof position woo!"}
 tweet_screenshot(tweet_url("JessieSunPsych", "1416153275338944512?s=09"))
-
 ```
 
 
@@ -38,7 +37,7 @@ Unintentionally, my “leaving academia” article is different. It has been nea
 
 What I am here to report after a change in career paths: everything is fine.
 
-```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.align = "center"}
+```{r, echo = FALSE, out.width = "250px", warning = FALSE, message = FALSE, fig.align = "center"}
 library(knitr)
 knitr::include_graphics("gif1.gif")
 ```
@@ -55,7 +54,7 @@ So, I ventured out of the academic bubble, if only temporarily (or, that’s wha
 
 These thoughts aren’t cool for my brain to make me think, but it couldn’t help it (still, though, what a jerk). 
 
-```{r, echo = FALSE, fig.align = "center", fig.cap = "My brain doesn't even listen when I'm doing my best Arnie impersonation"}
+```{r, eval=FALSE, echo = FALSE, out.width = "30%", fig.align = "center", fig.cap = "My brain doesn't even listen when I'm doing my best Arnie impersonation"}
 knitr::include_graphics("gif2.gif")
 ```
 
