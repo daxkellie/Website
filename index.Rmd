@@ -20,5 +20,22 @@ output:
 site: distill::distill_website
 ---
 
+```{r meta-details, include=FALSE, results = 'asis'}
+# This edits meta details that display when people search for website on search engines
+library(metathis)
+meta() %>%
+  meta_social(
+    title = "Dax Kellie",
+    description = "Dax Kellie: Evolutionary Biologist & Social Psychologist, Data Analyst, Music Enthusiast",
+    url = "https://daxkellie.com",
+    image = "https://github.com/daxkellie/Website/blob/master/images/dax_talk.jpg?raw=true",
+    image_alt = "Dax Kellie",
+    og_type = "website",
+    og_author = "Dax Kellie",
+    twitter_card_type = "summary",
+    twitter_creator = "@daxkellie"
+  )
+```
+
 <a href = "#top">Back to top</a>
 
