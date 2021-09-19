@@ -17,16 +17,16 @@ output:
 
 I have read my fair share of “leaving academia” articles, many while I was finishing my PhD and feeling unsure about my future. There are more recent ones I have found worth reading, too ([here](https://mcmullarkey.github.io/mcm-blog/posts/2021-05-18-im-opting-out/) and [here](http://crystalprisonzone.blogspot.com/2021/05/smell-you-later.html)). There's also lots of stuff on Twitter.
 
-```{r, echo = FALSE}
+```{r, eval=FALSE, echo = FALSE}
 library(tweetrmd)
 tweet_screenshot(tweet_url("michelemeyer", "1382403548596559878?s=09"))
 ```
 
-```{r, echo = FALSE, preview = TRUE}
+```{r, eval=FALSE, echo = FALSE, preview = TRUE}
 tweet_screenshot(tweet_url("AMLuger", "1369348381630472194?s=20"))
 ```
 
-```{r, echo = FALSE, fig.cap = "A few tweets I liked. The Michele Meyer thread is worth reading. Also note that Jessie Sun stayed in academia and just got a killer Assistant Prof position woo!"}
+```{r, eval=FALSE, echo = FALSE, fig.cap = "A few tweets I liked. The Michele Meyer thread is worth reading. Also note that Jessie Sun stayed in academia and just got a killer Assistant Prof position woo!"}
 tweet_screenshot(tweet_url("JessieSunPsych", "1416153275338944512?s=09"))
 
 ```
