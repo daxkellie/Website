@@ -38,8 +38,10 @@ Unintentionally, my “leaving academia” article is different. It has been nea
 
 What I am here to report after a change in career paths: everything is fine.
 
-![](gif1.gif)
-
+```{r, echo = FALSE, warning = FALSE, message = FALSE, fig.align = "center"}
+library(knitr)
+knitr::include_graphics("gif1.gif")
+```
 
 Leaving the academic bubble can be tough. Change is scary enough as it is. Add a fear of failure, a do-or-die motivation to earn professorship, and unending stress about your beloved research progress (and your h-index), and very soon changing career paths becomes completely overwhelming. 
 
@@ -53,7 +55,11 @@ So, I ventured out of the academic bubble, if only temporarily (or, that’s wha
 
 These thoughts aren’t cool for my brain to make me think, but it couldn’t help it (still, though, what a jerk). 
 
-![My brain doesn't even listen when I'm doing my best Arnie impersonation](gif2.gif)
+```{r, echo = FALSE, fig.align = "center", fig.cap = "My brain doesn't even listen when I'm doing my best Arnie impersonation"}
+knitr::include_graphics("gif2.gif")
+```
+
+<!-- ![My brain doesn't even listen when I'm doing my best Arnie impersonation](gif2.gif) -->
 
 It also became clear how much my social media reflected my academic career interests and little else. Twitter became incredibly draining as I simultaneously identified with and felt distant from the people I had once followed so closely. I expected something like this, but not to this extent. But why was I surprised? The last few years of my life were completely wrapped up in my research topic, yet when I finally started to feel minor confidence in my research ability, I had to move on to completely unknown territory.
 
@@ -65,7 +71,7 @@ What I did realise, however, is that the skills acquired over a PhD—critical t
 
 In fact, I think it would be beneficial for more academic researchers to bring their skill(z) and critical thinking ability to other non-academic roles. I mean, imagine if more people in higher positions were trained to make decisions using evidenced-based reasoning, and consider the limitations of their conclusions when results are ambiguous. What a dream!
 
-![I like that dream because usually my dreams are more like this](gif3.gif)
+<!-- ![I like that dream because usually my dreams are more like this](gif3.gif) -->
 
 And that’s lesson number two: anyone in academia feeling imposter syndrome or inadequacy compared to their academic peers should realise the incredible number of other skills they can bring to a team. Sometimes it doesn’t feel that way when so much of research is about ensuring you have enough publications and grants to reach the next short-term opportunity. If anything, the research environment can be kinda…lonely. I just want to remind those lonely people: you can have a positive impact outside of research—and outside of publication metrics—if you so choose.
 
@@ -73,14 +79,14 @@ After around 7 months, I found myself searching for a new opportunity yet again.
 
 I am lucky. I am surrounded by others who are excited by science (and aware of its faults). Many are previous academics themselves. In this environment, although I am just a data analyst with “computer skills,” I am encouraged to pursue initiatives that support transparent and robust science. Rather than the feeling I often had in academia of personal success and failure (“I won a grant” or “I was rejected from a journal”), I now feel team success and failure (“the team reached a milestone” or “the team failed to meet a deadline”). This is a wonderfully welcome change in mindset. 
 
-![A real team huddle I once had](gif4.gif)
+<!-- ![A real team huddle I once had](gif4.gif) -->
 
 I may not be doing research, but I am continuing to learn about things that I am excited to know more about with others working for a common goal. And that is my final lesson for those considering leaving academia: Even outside of the professor “dream job” you will find new opportunities that will make you excited. Will you find the job you do for the rest of your career? Who knows? But there are many careers other than research that value good science and provide moral benefit to the planet (or they try to). To make it even better, your friends from academia will still be your friends, and your work-life balance will bring happiness to many other aspects of your life. 
 
 If you can believe it, there is more to life than a high h-index (or whatever other metric your university uses—my university used a metric called Boris lol). Publishing in Nature or Science doesn’t define you as a person (though it’s still very badass…and expensive). It doesn’t really matter what Reviewer 2 thinks about your paper (but srsly why do you hate me and my discussion section Reviewer 2). At the most stressful times in the academic bubble (and this is true of all jobs) it can feel easy to forget that a career is just one aspect of your life. Try not to let it take too much of a hold on you. If you feel that it is, although it may seem scary, life outside of the academic bubble can be pretty alright, too.
 
 
-![If Paul says it you know it's true](gif5.gif)
+<!-- ![If Paul says it you know it's true](gif5.gif) -->
 
 
 
