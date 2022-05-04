@@ -139,6 +139,11 @@ d-appendix {
 }
 }
 
+@media screen and (max-width: 952px) {
+  .hero-image {
+    background-attachment: scroll;
+  }
+}
 
 /*-- Index page arrow scroll  */
 

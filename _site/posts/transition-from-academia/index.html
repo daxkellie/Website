@@ -86,7 +86,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Dax Kellie: Out of Academia (and everything’s fine)</title>
+<title>Dax Kellie
+: Out of Academia (and everything’s fine)</title>
 
 <meta property="description" itemprop="description" content="Transitioning from academia isn&#39;t easy, but it&#39;s not so bad, after all"/>
 
@@ -97,15 +98,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <meta property="article:created" itemprop="dateCreated" content="2021-09-23"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Dax Kellie: Out of Academia (and everything’s fine)"/>
+<meta property="og:title" content="Dax Kellie&#10;: Out of Academia (and everything’s fine)"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="Transitioning from academia isn&#39;t easy, but it&#39;s not so bad, after all"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="Dax Kellie"/>
+<meta property="og:site_name" content="Dax Kellie&#10;"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Dax Kellie: Out of Academia (and everything’s fine)"/>
+<meta property="twitter:title" content="Dax Kellie&#10;: Out of Academia (and everything’s fine)"/>
 <meta property="twitter:description" content="Transitioning from academia isn&#39;t easy, but it&#39;s not so bad, after all"/>
 
 <!--/radix_placeholder_meta_tags-->
@@ -1870,7 +1871,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -2259,6 +2263,11 @@ d-appendix {
 }
 }
 
+@media screen and (max-width: 952px) {
+  .hero-image {
+    background-attachment: scroll;
+  }
+}
 
 /*-- Index page arrow scroll  */
 
@@ -2548,7 +2557,8 @@ d-appendix d-footnote-list a.footnote-backlink {
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="../../index.html" class="title">Dax Kellie</a>
+<a href="../../index.html" class="title">Dax Kellie
+</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">

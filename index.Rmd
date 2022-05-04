@@ -1,5 +1,5 @@
 ---
-title: "About me:"
+title: "Evolutionary Biologist & Social Psychologist"
 description: |
   I am an evolutionary biologist and social psychologist
   (Ph. D. from University of New South Wales, Sydney Australia). <br><br>
@@ -39,3 +39,8 @@ meta() %>%
 
 <a href = "#top">Back to top</a>
 
+```{css, echo = FALSE}
+d-title h1{
+    display: none;
+  }
+```

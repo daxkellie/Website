@@ -1,5 +1,6 @@
 name: "Website"
-title: "Dax Kellie"
+title: |
+  Dax Kellie
 description: |
   daxkellie.com
 output_dir: "_site"
